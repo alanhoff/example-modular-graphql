@@ -1,0 +1,17 @@
+{
+  "name": "example-modular-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --experimental-modules index.mjs"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.7",
+    "graphql-tools": "^2.12.0",
+    "lodash": "^4.17.4",
+    "uuid": "^3.1.0"
+  }
+}
